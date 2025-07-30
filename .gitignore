@@ -46,6 +46,3 @@ app.*.map.json
 
 # Secrets
 .env
-
-# Gemini context file
-GEMINI.md
