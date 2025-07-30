@@ -1,0 +1,9 @@
+export 'src/domain/entities/gif.dart';
+export 'src/domain/entities/image_info.dart';
+export 'src/domain/repositories/gif_repository.dart';
+export 'src/domain/usecases/get_trending_gifs.dart';
+export 'src/domain/usecases/search_gifs.dart';
+export 'src/data/datasources/giphy_api_client.dart';
+export 'src/data/models/gif_model.dart';
+export 'src/data/models/image_model.dart';
+export 'src/data/repositories/gif_repository_impl.dart';

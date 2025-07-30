@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      mockito|mockBuilder:
+        enabled: false
+  test:
+    sources:
+      - "test/**"
+    builders:
+      mockito|mockBuilder:
+        enabled: true
